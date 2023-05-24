@@ -1,0 +1,27 @@
+.p-6 {
+    padding: 45px;
+  }
+  
+.my-container{
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 18px -9px rgba(0,0,0,0.98); 
+    box-shadow: 0px 0px 18px -9px rgba(0,0,0,0.98);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #12664F;
+}
+
+.btn-custom{
+    background-color: #12664F !important;
+}
+
+.btn-custom:hover {
+    background-color: #1a7a60 !important;
+}
+
+.btn-custom:active {
+    box-shadow: none !important;
+  }
+  
