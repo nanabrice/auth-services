@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Confirm from './pages/Confirm';
+import CreateWorkspace from './pages/CreateWorkspace';
 
 import {
     createBrowserRouter,
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/Confirm",
     element: <Confirm />,
+  },
+  {
+    path: "/CreateWorkspace",
+    element: <CreateWorkspace />,
   },
 ]);
 
