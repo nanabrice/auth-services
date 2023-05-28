@@ -20,11 +20,11 @@ const Register = () => {
         <>
            <Container className='p-6'>
 
-                <Container className='d-flex flex-column min-vh-100  align-items-center mb border rounded p-4 my-container' style={{ maxWidth: '400px'}}>
+                <Container className='d-flex flex-column min-vh-100 align-items-center border rounded p-4 my-container'>
                 <div className='text-center'>
-                <h3 className='mb-4'>TaskAID</h3>
-                <p>sign up to continue</p>
-           </div>
+                    <h3 className='mb-4'>TaskAID</h3>
+                    <p>sign up to continue</p>
+                </div>
             <Form>
                 <div className='mb-4'>
 
@@ -49,38 +49,46 @@ const Register = () => {
                 <Form.Text className="text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at ullamcorper sem, ac ornare ligula.
                 </Form.Text>
-
+                
+                <Link to="/" className='strip'>
                 <Button variant="primary mt-3" type="submit" className="form-control btn-custom">
                     Sign up
                 </Button>
+                </Link>
 
                 </div>
                 <div className='text-center'><p>OR</p></div>
             </Form>
 
             <div>
+                    <Link to="/Confirm" className='strip'>
                     <Button variant="light" size="lg" className='mb-3 bs' style={{ width: '100%' }}>
                     <Stack direction="horizontal" gap={3}>
                         <div><FontAwesomeIcon icon={faGoogle} /></div>
                         <div className="mx-auto">Continue with Google</div>
                     </Stack>
                     </Button>
+                    </Link>
 
+                    <Link to="/Confirm" className='strip'>
                     <Button variant="light" size="lg" className='mb-3 bs' style={{ width: '100%' }}>
                     <Stack direction="horizontal" gap={3}>
                         <div><FontAwesomeIcon icon={faGithub} /></div>
                         <div className="mx-auto">Continue with GitHub</div>
                     </Stack>
                     </Button>
+                    </Link>
 
+                    <Link to="/Confirm" className='strip'>
                     <Button variant="light" size="lg" className='mb-3 bs' style={{ width: '100%' }}>
                     <Stack direction="horizontal" gap={3}>
                         <div><FontAwesomeIcon icon={faFacebook} /></div>
                         <div className="mx-auto">Continue with Facebook</div>
                     </Stack>
                     </Button>
+                    </Link>
 
-                    <div style={{ borderBottom: '1px solid #ccc', marginBottom: '1rem' }}></div>
+                    <div style={{ borderBottom: '2px solid #ccc', marginBottom: '1rem' }}></div>
 
             </div>
             

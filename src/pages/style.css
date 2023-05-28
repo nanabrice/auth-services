@@ -1,24 +1,39 @@
 .p-6 {
     padding: 45px;
   }
+
+  .p-x {
+    padding: 20vb;
+  }
   
 .my-container{
+    max-width: 400px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 18px -9px rgba(0,0,0,0.98); 
+    box-shadow: 0px 0px 18px -9px rgba(0,0,0,0.98);
+}
+
+.my-container2{
+    max-width: 400px;
+    height: 60vh;
     background-color: white;
     -webkit-box-shadow: 0px 0px 18px -9px rgba(0,0,0,0.98); 
     box-shadow: 0px 0px 18px -9px rgba(0,0,0,0.98);
 }
 
 .form-control:focus {
+    color: white;
     box-shadow: none;
-    border: 2px solid #12664F;
+    border: 2px solid #12664F !important;
 }
 
 .btn-custom{
     background-color: #12664F !important;
+    border: #12664F;
 }
 
 .btn-custom:hover {
-    background-color: #1a7a60 !important;
+    background-color: #12664F !important;
 }
 
 .btn-custom:active {
@@ -28,4 +43,10 @@
 .bs{
     -webkit-box-shadow: 0px 0px 10px -4px #8D8D8D; 
     box-shadow: 0px 0px 10px -4px #8D8D8D;
+}
+
+.strip{
+    text-decoration: none !important;
+    color: white !important;
+
 }

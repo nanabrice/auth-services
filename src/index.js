@@ -4,9 +4,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
+import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Home from './pages/Home';
+import Confirm from './pages/Confirm';
 
 import {
     createBrowserRouter,
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/Register",
     element: <Register />,
+  },
+  {
+    path: "/Confirm",
+    element: <Confirm />,
   },
 ]);
 

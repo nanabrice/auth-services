@@ -66,6 +66,8 @@ const Login = () => {
                     </Stack>
                 </Button>
 
+                <div style={{ borderBottom: '2px solid #ccc', marginBottom: '1rem' }}></div>
+
             </div>
             
             <div>
