@@ -50,7 +50,7 @@ const Register = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at ullamcorper sem, ac ornare ligula.
                 </Form.Text>
                 
-                <Link to="/" className='strip'>
+                <Link to="/CreateWorkspace" className='strip'>
                 <Button variant="primary mt-3" type="submit" className="form-control btn-custom">
                     Sign up
                 </Button>
