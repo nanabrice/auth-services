@@ -8,13 +8,7 @@ import './style.css'
 const Home = () => {
     return (
         <>
-            <h2>This is the landing page</h2>
-            <div>
-                <Link to="/Register">Sign up</Link>
-            </div>
-            <div>
-                <Link to="/Login">Login</Link>
-            </div>
+            <h2>Home page of app</h2>
         </>
     );
 };

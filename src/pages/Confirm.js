@@ -24,9 +24,11 @@ const Confirm = () => {
                         <p>.....full name here.....</p>
                     </div>
                     <div>
+                        <Link to="/CreateWorkspace">
                         <Button variant="primary mt-3 mb-3" type="submit" className="form-control btn-custom">
                             Confirm your account
                         </Button>
+                        </Link>
 
                         <div style={{ borderBottom: '2px solid #ccc', marginBottom: '1rem' }}></div>
                     </div>

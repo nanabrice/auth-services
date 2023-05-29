@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(252, 252, 252);
+}
+
 .p-6 {
     padding: 45px;
   }
@@ -22,7 +26,6 @@
 }
 
 .form-control:focus {
-    color: white;
     box-shadow: none;
     border: 2px solid #12664F !important;
 }

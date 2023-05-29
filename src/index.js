@@ -4,11 +4,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Home from './pages/Home';
+import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Confirm from './pages/Confirm';
 import CreateWorkspace from './pages/CreateWorkspace';
+import Home from './pages/Home';
 
 import {
     createBrowserRouter,
@@ -18,8 +19,8 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/Home",
-    element: <Home />,
+    path: "/LandingPage",
+    element: <LandingPage />,
   },
   {
     path: "/Login",
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/CreateWorkspace",
     element: <CreateWorkspace />,
+  },
+  {
+    path: "/Home",
+    element: <Home />,
   },
 ]);
 
