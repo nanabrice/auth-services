@@ -36,35 +36,40 @@ const Login = () => {
                 <Form.Text className="text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at ullamcorper sem, ac ornare ligula.
                 </Form.Text>
-
+                <Link to="/Home">
                 <Button variant="primary mt-3" type="submit" className="form-control btn-custom">
                     Log in
                 </Button>
+                </Link>                     
                 </div>
                 <div className='text-center'><p>OR</p></div>
             </Form>
             <div>
                 
+                <Link to="/Home">
                 <Button variant="light" size="lg" className='mb-3 bs' style={{ width: '100%' }}>
                     <Stack direction="horizontal" gap={3}>
                         <div><FontAwesomeIcon icon={faGoogle} /></div>
                         <div className="mx-auto">Continue with Google</div>
                     </Stack>
                 </Button>
-
+                </Link>
+                <Link to="/Home">
                 <Button variant="light" size="lg" className='mb-3 bs' style={{ width: '100%' }}>
                     <Stack direction="horizontal" gap={3}>
                         <div><FontAwesomeIcon icon={faGithub} /></div>
                         <div className="mx-auto">Continue with GitHub</div>
                     </Stack>
                 </Button>
-
+                </Link>
+                <Link to="/Home">
                 <Button variant="light" size="lg" className='mb-3 bs' style={{ width: '100%' }}>
                     <Stack direction="horizontal" gap={3}>
                         <div><FontAwesomeIcon icon={faFacebook} /></div>
                         <div className="mx-auto">Continue with Facebook</div>
                     </Stack>
                 </Button>
+                </Link>
 
                 <div style={{ borderBottom: '2px solid #ccc', marginBottom: '1rem' }}></div>
 

@@ -1,0 +1,50 @@
+
+
+.custom-navbar {
+    -color: white;
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.37); 
+    box-shadow: 0px 1px 15px 0px rgba(103, 103, 103, 0.37);
+}
+
+.custom-canvas {
+  min-height: 350px;
+}
+
+.space{
+  height: 100px;
+}
+
+.get-started{
+  border: 1px solid #1BA781;
+  border-radius: 5px;
+  background-color: #1BA781;
+  color: white;
+}
+
+.get-started:hover {
+  color: white;
+  background-color: #157f62;
+}
+
+.fs-7{
+  font-size: 14px;
+  font-weight: light;
+  width: 300px;
+}
+
+.tour{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1BA781;
+  border: 2px solid #1BA781;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.line{
+  border-right: 1px solid rgb(225, 218, 218);
+}
