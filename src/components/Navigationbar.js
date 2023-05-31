@@ -15,6 +15,10 @@ import {
   faPeopleGroup,
   faChartGantt,
   faObjectUngroup,
+  faLightbulb,
+  faStar,
+  faBuilding,
+  faBolt,
 } from "@fortawesome/free-solid-svg-icons";
 
 import React, { useState } from "react";
@@ -165,10 +169,80 @@ function OffCanvasPlans({ name, ...props }) {
           <Container>
             <Row>
               <Col xs={12} md={8}>
-                xs=12 md=8
-              </Col>
-              <Col xs={6} md={4}>
-                xs=6 md=4
+                <Table style={{ width: "100px" }}>
+                  <tr className="space">
+                    <td>
+                      <Stack gap={1}>
+                        <Stack direction="horizontal" gap={1}>
+                          <div>
+                            <FontAwesomeIcon
+                              icon={faLightbulb}
+                              style={{ color: "#27b0ad" }}
+                            />
+                          </div>
+                          <div className="">Standard</div>
+                        </Stack>
+                        <div className="fs-7">
+                          For teams requiring enhanced workload management and
+                          scalable collaboration.
+                        </div>
+                      </Stack>
+                    </td>
+                    <td>
+                      <Stack gap={1}>
+                        <Stack direction="horizontal" gap={1}>
+                          <div>
+                            <FontAwesomeIcon
+                              icon={faStar}
+                              style={{ color: "#ff99df" }}
+                            />
+                          </div>
+                          <div className="">Premium</div>
+                        </Stack>
+                        <div className="fs-7">
+                          Ideal choice for multi-project tracking needs of teams
+                          up to 100 members.
+                        </div>
+                      </Stack>
+                    </td>
+                    <td>
+                      <Stack gap={1}>
+                        <Stack direction="horizontal" gap={1}>
+                          <div>
+                            <FontAwesomeIcon
+                              icon={faBuilding}
+                              style={{ color: "#9c92d5" }}
+                            />
+                          </div>
+                          <div className="">Enterprise</div>
+                        </Stack>
+                        <div className="fs-7">
+                          All-inclusive solution for project management needs of
+                          enterprise teams and admins.
+                        </div>
+                      </Stack>
+                    </td>
+                  </tr>
+                  <tr className="space">
+                    <td colSpan={3}>
+                      <Stack gap={1}>
+                        <Stack direction="horizontal" gap={1}>
+                          <div>
+                            <FontAwesomeIcon
+                              icon={faBolt}
+                              style={{ color: "#ffdc5c" }}
+                            />
+                          </div>
+                          <div className="">Free</div>
+                        </Stack>
+                        <div className="fs-8">
+                          Efficient solution for organizing work, perfect for
+                          individuals or small teams.
+                        </div>
+                      </Stack>
+                    </td>
+                  </tr>
+                </Table>
               </Col>
             </Row>
           </Container>
