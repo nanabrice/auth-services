@@ -53,3 +53,21 @@ body{
     color: white !important;
 
 }
+
+.mt-6{
+    margin-top: 50px;
+}
+
+.w-1{
+    width: 460px;
+}
+
+.gs{
+    width: 130px;
+    height: 42px;
+}
+
+.gs:hover{
+  background-color: #157f62;
+  border: 1px solid #157f62;
+}

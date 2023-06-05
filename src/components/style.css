@@ -17,15 +17,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #1BA781;
+  border: 1px solid #000000;
   border-radius: 5px;
-  background-color: #1BA781;
+  background-color: #000000;
   color: white;
 }
 
 .get-started:hover {
   color: white;
   background-color: #157f62;
+  border: 1px solid #157f62;
+
 }
 
 .fs-7{
